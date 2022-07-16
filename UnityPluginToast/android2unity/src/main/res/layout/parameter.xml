@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat">
+    <ScrollView
+        android:id="@+id/scroll_parameter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/tmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/highSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="High speed: OFF" />
+            <Button
+                android:id="@+id/videoSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resolution" />
+            <Button
+                android:id="@+id/ControlMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Control mode" />
+            <Button
+                android:id="@+id/SceneMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scene mode" />
+            <Button
+                android:id="@+id/EffectMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Effect mode" />
+            <Button
+                android:id="@+id/AWBmode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AWB mode" />
+            <Button
+                android:id="@+id/AEmode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AE mode" />
+            <Button
+                android:id="@+id/exposureTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exposure time;" />
+            <Button
+                android:id="@+id/sensitivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sensitivity;" />
+            <Button
+                android:id="@+id/frameRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frame rate" />
+            <Button
+                android:id="@+id/AFmode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AF mode" />
+            <Button
+                android:id="@+id/focalDistnace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Focal distance" />
+            <Button
+                android:id="@+id/Zoom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zoom" />
+            <Button
+                android:id="@+id/recordT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Record Time" />
+            <Button
+                android:id="@+id/refI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Record Interval" />
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
